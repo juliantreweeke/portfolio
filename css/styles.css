@@ -1,3 +1,9 @@
+
+
+p {
+  line-height: 2;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -103,6 +109,21 @@ active {
   font-size:70px;
 }
 
+.linkd {
+  width:20%;
+  height:20%;
+  background-image: url("images/linkdinwhite.png");
+  /*background-size: 20%;*/
+  transition: 0.5s ease-in-out;
+}
+
+.linkd:hover {
+  transform: scaleX(1.1);
+  background-image: url("images/linkdblue.png");
+}
+
+
+
 #about {
    background: #2F2F32;
    padding-top: 96px;
@@ -129,7 +150,7 @@ active {
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   height:140vh;
+   height:160vh;
 }
 
 #resume {
@@ -151,10 +172,20 @@ active {
    text-align: center;
 }
 
-#portfolio img {
+#contact p {
+  color:#7A7A7A;
+
+}
+
+/*#portfolio img {
   width:290px;
   height:180px;
-}frag
+}*/
+
+#portfolio img {
+  width:90%;
+  height:70%;
+}
 
 #portfolio h2 {
 
