@@ -141,11 +141,17 @@ active {
 }
 
 .linkd {
-  width:20%;
-  height:20%;
+  width:40px;
+  height:30px;
   background-image: url("images/linkdinwhite.png");
-  /*background-size: 20%;*/
   transition: 0.5s ease-in-out;
+}
+
+.github {
+  width:40px;
+  height:40px;
+  transition: 0.5s ease-in-out;
+
 }
 
 .linkd:hover {
@@ -199,7 +205,7 @@ active {
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   height:70vh;
+   height:60vh;
    text-align: center;
 }
 
@@ -267,9 +273,9 @@ h1 {
     }
 }
 
-@media all and (max-width: 599px) and (min-width: 320px) {
+@media all and (max-width: 599px) and (min-width: 0px) {
     body{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     ul a {
@@ -277,8 +283,28 @@ h1 {
     }
 
      h3 {
+      font-size: 11px;
+    }
+
+    #home h1 {
+      font-size: 50px;
+    }
+
+    #resume {
+      height:200vh;
+    }
+
+    #about {
+      height:120vh;
+    }
+
+    #contact h2 {
       font-size: 12px;
     }
+
+
+
+
 
 
 }
