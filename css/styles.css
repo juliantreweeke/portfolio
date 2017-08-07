@@ -137,6 +137,7 @@ active {
 #home h1 {
   padding:40px;
   font-size:70px;
+  /*font-size:6vw;*/
 }
 
 .linkd {
@@ -247,4 +248,37 @@ active {
 h1 {
   font-size: 100px;
   /*color:white;*/
+}
+
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+
+    ul a {
+      padding: 10px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body{
+        font-size: 10px;
+    }
+
+    ul a {
+      padding: 5px;
+    }
+
+     h3 {
+      font-size: 12px;
+    }
+
+
 }
