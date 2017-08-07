@@ -266,7 +266,7 @@ h1 {
     }
 }
 
-@media all and (max-width: 959px) and (min-width: 600px) {
+@media all and (max-width: 959px) and (min-width: 800px) {
     body{
         font-size: 16px;
     }
@@ -276,7 +276,7 @@ h1 {
     }
 }
 
-@media all and (max-width: 599px) and (min-width: 0px) {
+@media all and (max-width: 800px) and (min-width: 0px) {
     body{
         font-size: 8px;
     }
@@ -305,7 +305,9 @@ h1 {
       font-size: 12px;
     }
 
-
+    #home {
+      height:120vh;
+    }
 
 
 
