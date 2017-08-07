@@ -266,7 +266,7 @@ h1 {
     }
 }
 
-@media all and (max-width: 959px) and (min-width: 800px) {
+@media all and (max-width: 959px) and (min-width: 500px) {
     body{
         font-size: 16px;
     }
@@ -276,7 +276,7 @@ h1 {
     }
 }
 
-@media all and (max-width: 800px) and (min-width: 0px) {
+@media all and (max-width: 499px) and (min-width: 0px) {
     body{
         font-size: 8px;
     }
@@ -294,11 +294,11 @@ h1 {
     }
 
     #resume {
-      height:200vh;
+      height:170vh;
     }
 
     #about {
-      height:120vh;
+      height:110vh;
     }
 
     #contact h2 {
@@ -306,7 +306,7 @@ h1 {
     }
 
     #home {
-      height:80vh;
+      height:100vh;
     }
 
 
