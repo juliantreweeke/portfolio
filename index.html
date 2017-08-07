@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="js/jquery.js" charset="utf-8"></script>
+  <script src="js/p5.js" charset="utf-8"></script>
   <script src="js/semantic.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
   <!-- <link rel="stylesheet" href="css/styles.css"> -->
@@ -27,18 +28,39 @@
           <li><a href="#contact">CONTACT</a></li>
         </ul>
 
+        <div class="ui dropdown draw">DRAW<i class="dropdown icon"></i>
+             <div class="menu">
+               <div class="item blocks active">
+                 BLOCKS
+               </div>
+               <div class="item circles">
+                 LIL CIRCLES
+               </div>
+               <div class="item triangles">
+                 TRIANGLES
+               </div>
+               <div class="item off">
+                 OFF
+               </div>
+          </div>
+       </div>
 
       </nav>
     </header>
 
     <div class="flex_body">
 
+
+
       <main class="main_content">
 
-        <section id="home"><h1>I'm Julian Treweeke.</h1>
+        <section id="home">
+
+
+        <h1>I'm Julian Treweeke.</h1>
           <h2>I'm a Sydney based Front-End developer</h2>
           <!-- <img src="images/github.png" alt=""> -->
-
+        <div id="sketch1"></div>
         </section>
 
         <section id="about">
@@ -73,7 +95,7 @@
 
           <p>After being a sound engineer for 8 years and a musician for as long as I can remember, I was after something new and exciting, challenging but forfilling and decided to pursue a career change in Web Development.
           </p> -->
-
+          <div id="sketch2"></div>
         </section>
 
         <section id="resume">
