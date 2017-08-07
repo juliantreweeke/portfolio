@@ -25,8 +25,11 @@ $(document).ready(function(){
 
   $('.off').click(function(){
     $('#sketch1').empty();
-    // var myp5 = new p5(triangle, 'sketch1');
-    // $(window).scrollTop($('#home').offset().top);
+  })
+
+  $('a').click(function(){
+    $('#sketch1').empty();
+    var myp5 = new p5(blocko, 'sketch1');
   })
 
   $('.ui.dropdown')
@@ -59,6 +62,23 @@ $(document).ready(function(){
   $(".tictactoe-modal").modal({
   closable: true
   });
+
+  $(window).scroll(function(){
+    if  ($(window).scrollTop() > 620 ){
+      $('#sketch1').empty();
+    }
+
+    if  ($(window).scrollTop() < 1 ){
+      $('#sketch1').empty();
+      var myp5 = new p5(blocko, 'sketch1');
+
+    }
+
+
+
+  });
+
+
 
 });
 
