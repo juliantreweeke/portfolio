@@ -20,30 +20,39 @@
 
     <header>
       <nav>
+        
+        
+        
         <ul>
+          <li><a class="link" href="https://www.linkedin.com/in/julian-treweeke/" target="_blank">  <img class="menulink" src="images/linkdinwhite.png" alt=""></a></li>
+          <li><a class="link" href="https://github.com/juliantreweeke" target="_blank">  <img class="menulink" src="images/githubwhite.png" alt=""></a></li>
+          <li><a class="link" href="https://twitter.com/dysphemic?lang=en" target="_blank">  <img class="menulink" src="images/twitter.png" alt=""></a></li>  
+          
           <li><a href="#" class="active">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#resume">RESUME</a></li>
           <li><a href="#portfolio">PROJECTS</a></li>
           <li><a href="#contact">CONTACT</a></li>
+          
+          <div class="ui dropdown draw">DRAW<i class="dropdown icon"></i>
+            <div class="menu">
+              <div class="item blocks active">
+                BLOCKS
+              </div>
+              <div class="item circles">
+                PEBBLES
+              </div>
+              <div class="item triangles">
+                TRIANGLES
+              </div>
+              <div class="item off">
+                OFF
+              </div>
+            </div>
+          </div>
+          
         </ul>
 
-        <div class="ui dropdown draw">DRAW<i class="dropdown icon"></i>
-             <div class="menu">
-               <div class="item blocks active">
-                 BLOCKS
-               </div>
-               <div class="item circles">
-                 PEBBLES
-               </div>
-               <div class="item triangles">
-                 TRIANGLES
-               </div>
-               <div class="item off">
-                 OFF
-               </div>
-          </div>
-       </div>
 
       </nav>
     </header>
@@ -59,6 +68,10 @@
 
         <h1>I'm Julian Treweeke.</h1>
           <h2>I'm a Sydney based Front-End developer</h2>
+
+          <!-- <a class="link" href="https://www.linkedin.com/in/julian-treweeke/" target="_blank">  <img class="linkd homeimg" src="images/linkdinwhite.png" alt=""></a>
+          <a class="link" href="https://github.com/juliantreweeke" target="_blank">  <img class="github homeimg" src="images/githubwhite.png" alt=""></a>
+          <a class="link" href="https://twitter.com/dysphemic?lang=en" target="_blank">  <img class="twitter homeimg" src="images/twitter.png" alt=""></a> -->
           <!-- <img src="images/github.png" alt=""> -->
         <div id="sketch1"></div>
         </section>
@@ -66,35 +79,139 @@
         <section class="row" id="about">
 
           <div class="ui grid">
-          <div class="four wide column">
+          <div class="three wide column">
 
           </div>
-          <div class="nine wide column">
+          <div class="ten wide column">
             <h2>About me</h2>
-            <p>I have spent my working life making music professionally and working as a sound engineer.</p>
-            <p>Although my focus has been mainly on audio, I have always been intrigued and interested in coding.</p>
-            <p>When I was a kid I used to program on a Commodore 64 and as a teenager I made interactive games on multimedia's Director. </p>
-            <p>After returning to Sydney from living in Melbourne for many years I felt like I needed a change and decided to pursue a career in Web Development.</p>
-            <p>I was looking for a way to strictly devote my time to learning to code and so I enrolled in General Assembly's Web Development Immersive course.</p>
-            <p>I found the course both challenging and forfilling and it opened my eyes to how creative coding is.</p>
-            <p>From a background as a sound engineer, I understand the need to constantly learn and adapt to new technologies and I see many similarities from the audio design world to the tech industry.
-            I really enjoy the mix of creative and technical thinking to problem solve and I love that as a dev you are always learning and that you can never know it all, there is always something new that you can pursue.</p>
-            </p>
-            <h4>Contact Info</h4>
+            <img class="photo" src="images/julian-photo.png" alt="julian_treweeke_photo">
+            <p>My names Julian and i’m passionate about creative coding.</p>
+            <p>I like to do audio related web development in my spare time.</p>
+            <p>I used to be a sound designer and engineer in my past career and</p>
+            <p>I’m looking for a full time Front-end developer role.</p>
+            <h3>Contact Me</h3>
             <p>Julian Treweeke: 0431185767</p>
             <p>Email: <a href="mailto:juliantreweeke@gmail.com" target="_blank">juliantreweeke@gmail.com</a></p>
           </div>
-          <div class="three wide column">
+          <!-- <div class="three wide column">
             <p></p>
+          </div> -->
           </div>
-          </div>
 
-
-          <!-- <h2>About me</h2>
-
-          <p>After being a sound engineer for 8 years and a musician for as long as I can remember, I was after something new and exciting, challenging but forfilling and decided to pursue a career change in Web Development.
-          </p> -->
           <div id="sketch2"></div>
+        </section>
+
+        <section id="portfolio">
+          <h2>Projects</h2><br>
+
+          <div class="ui grid">
+
+            <div class="four wide column">
+              <h3 class="drm-link projs">DRM-MACH</h3>
+                <img class="drm-link projs" src="images/drum-mach.png" alt="">
+                  <p class="portfolio-links"><a href="https://juliantreweeke.github.io/drum-machine/" target="_blank">Live Link</a></p>
+                  <p class="portfolio-links"><a href="https://github.com/juliantreweeke/drum-machine" target="_blank">Github Link</a></p>
+
+                <div class="ui modal drm-modal">
+                <i class="close icon"></i>
+                <div class="header">
+                  DRM-MACH
+                </div>
+                <div class="image content">
+                  <div class="ui image">
+                    <img src="images/drum-mach.png">
+                  </div>
+                  <div class="description">
+                    <p>A drum machine and synthesizer sequencer with visuals controlled by analysing audio frequencies.
+                    You can also record into the browser and then add those sounds to the composition.
+                    This is purely a front-end project and my favourite and last as part of General Assemblies Web Dev course.</p>
+                    <p><a href="https://juliantreweeke.github.io/drum-machine/" target="_blank">Live Link</a></p>
+                    <p><a href="https://github.com/juliantreweeke/drum-machine" target="_blank">Github Link</a></p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="four wide column">
+              <h3 class="fraga-link projs">FRAGA</h3>
+                <img class="fraga-link projs" src="images/fraga.png" alt="">
+                <p class="portfolio-links"><a href="https://fraga-app.herokuapp.com/" target="_blank">Live Link</a></p>
+                <p class="portfolio-links"><a href="https://github.com/aparkinbotswana/Fraga" target="_blank">Github Link</a></p>
+
+                <div class="ui modal fraga-modal">
+                <i class="close icon"></i>
+                <div class="header">
+                  FRAGA
+                </div>
+                <div class="image content">
+                  <div class="ui image">
+                    <img src="images/fraga.png">
+                  </div>
+                  <div class="description">
+                    <p>A location based social media app.
+                      This was a group project built with Ruby on Rails and uses geolocation mapping and the google maps api to connect users together to answer and comment on questions.</p>
+                    <p><a href="https://fraga-app.herokuapp.com/" target="_blank">Live Link</a></p>
+                    <p><a href="https://github.com/aparkinbotswana/Fraga" target="_blank">Github Link</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="four wide column">
+              <h3 class="soundslap-link projs">Sound Slap</h3>
+                <img class="soundslap-link projs" src="images/soundslap.png" alt="">
+                <p class="portfolio-links"><a href="https://soundslap.herokuapp.com/" target="_blank">Live Link</a></p>
+                <p class="portfolio-links"><a href="https://github.com/juliantreweeke/soundslap" target="_blank">Github Link</a></p>
+
+                <div class="ui modal soundslap-modal">
+                <i class="close icon"></i>
+                <div class="header">
+                  Sound Slap
+                </div>
+                <div class="image content">
+                  <div class="ui image">
+                    <img src="images/soundslap.png">
+                  </div>
+                  <div class="description">
+                    <p>Audio sample sharing site for Musicians and Music Producers.
+                      Users can share and search for samples and record audio directly into the browser.
+                      Built with Ruby on Rails.</p>
+                    <p><a href="https://soundslap.herokuapp.com/" target="_blank">Live Link</a></p>
+                    <p><a href="https://github.com/juliantreweeke/soundslap" target="_blank">Github Link</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="four wide column">
+              <h3 class="tictactoe-link projs">Tic Tac Toe</h3>
+                <img class="tictactoe-link projs" src="images/tictactoe.png" alt="">
+                <p class="portfolio-links"><a href="https://juliantreweeke.github.io/tictactoe/" target="_blank">Live Link</a></p>
+                <p class="portfolio-links"><a href="https://github.com/juliantreweeke/tictactoe" target="_blank">Github Link</a></p>
+
+                <div class="ui modal tictactoe-modal">
+                <i class="close icon"></i>
+                <div class="header">
+                  Tic Tac Toe
+                </div>
+                <div class="image content">
+                  <div class="ui image">
+                    <img src="images/tictactoe.png">
+                  </div>
+                  <div class="description">
+                    <p>A 2 player computer game. This is the first project I wrote with Javascript.
+                        Users can customize the board size from a 3x3 grid up to a rediculous 250x250</p>
+                    <p><a href="https://juliantreweeke.github.io/tictactoe/" target="_blank">Live Link</a></p>
+                    <p><a href="https://github.com/juliantreweeke/tictactoe" target="_blank">Github Link</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </section>
 
         <section id="resume">
@@ -151,135 +268,19 @@
 
             </div>
             <p>
-
-
-
-
-
-
-
             </p>
-
-
-
-
-
           </div>
           <div class="three wide column">
             <p></p>
           </div>
           </div>
-
-
-
-
-
-
-
-
         </section>
 
-        <section id="portfolio">
-          <h2>Projects</h2><br>
 
-          <div class="ui grid">
-
-            <div class="four wide column">
-              <h3 class="drm-link projs">DRM-MACH</h3>
-                <img class="drm-link projs" src="images/drum-mach.png" alt="">
-                <div class="ui modal drm-modal">
-                <i class="close icon"></i>
-                <div class="header">
-                  DRM-MACH
-                </div>
-                <div class="image content">
-                  <div class="ui image">
-                    <img src="images/drum-mach.png">
-                  </div>
-                  <div class="description">
-                    <p>A drum machine and synthesizer sequencer with visuals controlled by analysing audio frequencies.
-                    You can also record into the browser and then add those sounds to the composition.
-                    This is purely a front-end project and my favourite and last as part of General Assemblies Web Dev course.</p>
-                    <p><a href="https://juliantreweeke.github.io/drum-machine/" target="_blank">Live Link</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="four wide column">
-              <h3 class="fraga-link projs">FRAGA</h3>
-                <img class="fraga-link projs" src="images/fraga.png" alt="">
-
-                <div class="ui modal fraga-modal">
-                <i class="close icon"></i>
-                <div class="header">
-                  FRAGA
-                </div>
-                <div class="image content">
-                  <div class="ui image">
-                    <img src="images/fraga.png">
-                  </div>
-                  <div class="description">
-                    <p>A location based social media app.
-                      This was a group project built with Ruby on Rails and uses geolocation mapping and the google maps api to connect users together to answer and comment on questions.</p>
-                    <p><a href="https://fraga-app.herokuapp.com/" target="_blank">Live Link</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="four wide column">
-              <h3 class="soundslap-link projs">Sound Slap</h3>
-                <img class="soundslap-link projs" src="images/soundslap.png" alt="">
-
-                <div class="ui modal soundslap-modal">
-                <i class="close icon"></i>
-                <div class="header">
-                  Sound Slap
-                </div>
-                <div class="image content">
-                  <div class="ui image">
-                    <img src="images/soundslap.png">
-                  </div>
-                  <div class="description">
-                    <p>Audio sample sharing site for Musicians and Music Producers.
-                      Users can share and search for samples and record audio directly into the browser.
-                      Built with Ruby on Rails.</p>
-                    <p><a href="https://soundslap.herokuapp.com/" target="_blank">Live Link</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="four wide column">
-              <h3 class="tictactoe-link projs">Tic Tac Toe</h3>
-                <img class="tictactoe-link projs" src="images/tictactoe.png" alt="">
-
-                <div class="ui modal tictactoe-modal">
-                <i class="close icon"></i>
-                <div class="header">
-                  Tic Tac Toe
-                </div>
-                <div class="image content">
-                  <div class="ui image">
-                    <img src="images/tictactoe.png">
-                  </div>
-                  <div class="description">
-                    <p>A 2 player computer game. This is the first project I wrote with Javascript.
-                        Users can customize the board size from a 3x3 grid up to a rediculous 250x250</p>
-                    <p><a href="https://juliantreweeke.github.io/tictactoe/" target="_blank">Live Link</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </section>
 
         <section id="contact">
           <div class="ui grid">
-          <div class="three wide column">
+          <div class="four wide column">
 
 
           </div>
@@ -288,7 +289,7 @@
           </div>
 
           <div class="four wide column">
-            <h2>Contact info</h2>
+            <h2>Contact me</h2>
               <p>Phone: 0431185767</p>
               <p>Skype Phone: 02 80056525</p>
               <p>Email: <a href="mailto:juliantreweeke@gmail.com" target="_blank">juliantreweeke@gmail.com</a></p>
@@ -297,6 +298,7 @@
           <div class="three wide column">
               <p><a class="link" href="https://www.linkedin.com/in/julian-treweeke/" target="_blank">  <img class="linkd" src="images/linkdinwhite.png" alt=""></a></p>
               <p><a class="link" href="https://github.com/juliantreweeke" target="_blank">  <img class="github" src="images/githubwhite.png" alt=""></a></p>
+              <p><a class="link" href="https://twitter.com/dysphemic?lang=en" target="_blank">  <img class="twitter" src="images/twitter.png" alt=""></a></p>
           </div>
 
           </div>
